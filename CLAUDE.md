@@ -67,7 +67,7 @@ pytest -v
 - Type hints for all functions
 - Ruff for linting and formatting (not black, not prettier)
 - Conventional commits: `feat`, `fix`, `docs`, `test`, `refactor`, `perf`
-- GPG-sign all commits
+- Sign all commits (SSH signing)
 - Scene classes go in `scenes/` organized by topic
 - Each file should be self-contained (importable scene classes)
 - Pango text for labels/titles; MathTex for mathematical notation

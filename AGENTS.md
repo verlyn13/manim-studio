@@ -23,7 +23,7 @@ Manim CE animation project. Mathematical visualization scenes.
 - Text: Pango for labels/titles, MathTex for math
 - Helpers: reusable code in lib/, imported by scenes
 - Quality: ruff check + ruff format, type hints required
-- Commits: conventional (feat/fix/docs/test/refactor/perf), GPG-signed
+- Commits: conventional (feat/fix/docs/test/refactor/perf), SSH-signed
 
 ## Common Commands
 | Task | Command |
