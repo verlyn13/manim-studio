@@ -1,0 +1,16 @@
+[tools]
+ruff = "latest"
+uv = "latest"
+
+[tasks]
+render = "manim render"
+preview = "manim render -pql"
+final = "manim render -pqh"
+gif = "manim render -pqh --format gif"
+test = "pytest -v"
+lint = "ruff check ."
+format = "ruff format ."
+install = "uv pip install -e '.[dev]'"
+
+[env]
+PYTHONPATH = "./src"

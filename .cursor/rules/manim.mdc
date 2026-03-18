@@ -1,0 +1,18 @@
+---
+description: Manim project conventions and rendering workflow
+alwaysApply: true
+---
+
+# Manim Project Conventions
+
+- Default preview: `manim render -pql <file> <SceneName>`
+- Final render: `manim render -pqh <file> <SceneName>`
+- Never commit `media/` or generated partial movie files
+- Use Pango text for labels/titles; LaTeX (MathTex) for mathematical notation
+- Scene classes must be self-contained and importable
+- Keep reusable mobject helpers in `lib/`
+- Use only installed font family names (no relative font paths)
+- Do not introduce absolute paths in scene code
+- Lint with ruff, not flake8 or pylint
+- Format with ruff, not black or prettier
+- Type hints required for all helper functions

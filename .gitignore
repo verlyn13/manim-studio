@@ -1,0 +1,54 @@
+# Environment and secrets
+.env
+.env.*
+.envrc.local
+
+# Editor and IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp and backup files
+*.bak
+*.tmp
+*.log
+tmp/
+
+# Claude Code
+.claude/logs/
+.claude/cache/
+.claude/*.log
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Virtual environments
+.venv/
+venv/
+
+# Manim output
+media/
+exports/
+
+# Codex local state (track config, ignore runtime)
+.codex/*
+!.codex/config.toml

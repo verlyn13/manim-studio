@@ -1,0 +1,21 @@
+approval_policy = "on-failure"
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+You are working in a Manim Community Edition animation project.
+
+## Environment
+- Python 3.13 via mise (global)
+- Dependencies: uv pip install -e '.[dev]'
+- LaTeX: BasicTeX + tlmgr packages
+- Render: manim render -pql (preview) / -pqh (final)
+
+## Rules
+- Never commit media/ or __pycache__/
+- Use ruff for linting and formatting (not black, not flake8)
+- Use Pango text for labels; MathTex for math
+- Scene classes should be self-contained
+- Type hints required
+- Conventional commits: feat/fix/docs/test/refactor/perf
+- See CLAUDE.md for full project context
+"""
